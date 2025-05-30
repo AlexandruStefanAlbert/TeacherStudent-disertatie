@@ -2,7 +2,7 @@
 Lucrare Disertatie - Invatarea unor modele CNN pentru segmentarea si clasificarea imaginilor medicale
 
 Segmentation Model: U-net with MobileV2 encoder and deconvolutional decoder
-![unet_mobilenetv2_diagram](https://github.com/user-attachments/assets/0f15dd5b-2e73-43ef-a0bd-2a00e53bce8c)
+https://github.com/AlexandruStefanAlbert/TeacherStudent-disertatie/blob/master/unet_mobilenetv2_diagram.png
 
 Exemple de rezultate ale modelului Student
 Accuracy: 95.04%
