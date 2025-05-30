@@ -19,4 +19,3 @@ Exemple de rezultate ale modelului de Segmentare:
 ![Result5](https://github.com/user-attachments/assets/c162a1f9-5b71-4be7-9d14-514f287457d5)
 ![Result3](https://github.com/user-attachments/assets/d0c94fa4-9182-45fe-9a24-7bc5e37875ea)
 ![Result8](https://github.com/user-attachments/assets/867cdb79-835e-4148-aa3a-27b66476271e)
-![Result8](https://github.com/user-attachments/assets/4de46ac2-3849-4ad7-aef5-1b7aec8d1132)
