@@ -1,0 +1,224 @@
+E:\Desktop\Disertatie_new\venv\anaconda_gpu\Scripts\python.exe "E:\Desktop\Disertatie_new\Disertatie\Student-Teacher Application\CNNmodels\my_teacher_CNN.py" 
+Numărul de GPU-uri disponibile:  1
+GPU-ul este disponibil!
+GPU detectat: PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')
+2025-05-13 14:51:05.954820: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-05-13 14:51:06.019454: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 2859 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1
+Image shape: (224, 224, 3)
+Mask shape: (224, 224, 1)
+Image shape: (224, 224, 3)
+Mask shape: (224, 224, 1)
+Epoch 1/40
+2025-05-13 14:51:11.403180: I tensorflow/stream_executor/cuda/cuda_dnn.cc:384] Loaded cuDNN version 8100
+2025-05-13 14:51:12.304559: W tensorflow/core/common_runtime/bfc_allocator.cc:360] Garbage collection: deallocate free memory regions (i.e., allocations) so that we can re-allocate a larger region to avoid OOM due to memory fragmentation. If you see this message frequently, you are running near the threshold of the available device memory and re-allocation may incur great performance overhead. You may try smaller batch sizes to observe the performance impact. Set TF_ENABLE_GPU_GARBAGE_COLLECTION=false if you'd like to disable this feature.
+423/423 [==============================] - 61s 133ms/step - loss: 0.5615 - accuracy: 0.9865 - dice_coef: 0.4908 - val_loss: 0.7540 - val_accuracy: 0.9885 - val_dice_coef: 0.3668
+Epoch 2/40
+423/423 [==============================] - 57s 132ms/step - loss: 0.4353 - accuracy: 0.9886 - dice_coef: 0.6151 - val_loss: 0.6614 - val_accuracy: 0.9890 - val_dice_coef: 0.4436
+Epoch 3/40
+423/423 [==============================] - 55s 130ms/step - loss: 0.4054 - accuracy: 0.9891 - dice_coef: 0.6363 - val_loss: 0.6277 - val_accuracy: 0.9894 - val_dice_coef: 0.4578
+Epoch 4/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.3888 - accuracy: 0.9893 - dice_coef: 0.6565 - val_loss: 0.6180 - val_accuracy: 0.9892 - val_dice_coef: 0.4527
+Epoch 5/40
+423/423 [==============================] - 56s 133ms/step - loss: 0.3989 - accuracy: 0.9894 - dice_coef: 0.6512 - val_loss: 0.5991 - val_accuracy: 0.9902 - val_dice_coef: 0.5310
+Epoch 6/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.3381 - accuracy: 0.9897 - dice_coef: 0.7072 - val_loss: 0.5936 - val_accuracy: 0.9900 - val_dice_coef: 0.4883
+Epoch 7/40
+423/423 [==============================] - 56s 132ms/step - loss: 0.3590 - accuracy: 0.9896 - dice_coef: 0.6884 - val_loss: 0.5906 - val_accuracy: 0.9899 - val_dice_coef: 0.5084
+Epoch 8/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.3343 - accuracy: 0.9899 - dice_coef: 0.7100 - val_loss: 0.5822 - val_accuracy: 0.9904 - val_dice_coef: 0.5834
+Epoch 9/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.3175 - accuracy: 0.9901 - dice_coef: 0.7243 - val_loss: 0.6044 - val_accuracy: 0.9902 - val_dice_coef: 0.5492
+Epoch 10/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.3199 - accuracy: 0.9902 - dice_coef: 0.7295 - val_loss: 0.5645 - val_accuracy: 0.9902 - val_dice_coef: 0.5126
+Epoch 11/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.3312 - accuracy: 0.9901 - dice_coef: 0.7115 - val_loss: 0.5658 - val_accuracy: 0.9906 - val_dice_coef: 0.5865
+Epoch 12/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.3152 - accuracy: 0.9902 - dice_coef: 0.7224 - val_loss: 0.5930 - val_accuracy: 0.9906 - val_dice_coef: 0.6504
+Epoch 13/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.3123 - accuracy: 0.9904 - dice_coef: 0.7293 - val_loss: 0.5645 - val_accuracy: 0.9905 - val_dice_coef: 0.5561
+Epoch 14/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.3228 - accuracy: 0.9904 - dice_coef: 0.7243 - val_loss: 0.5625 - val_accuracy: 0.9908 - val_dice_coef: 0.5890
+Epoch 15/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.3025 - accuracy: 0.9904 - dice_coef: 0.7388 - val_loss: 0.5692 - val_accuracy: 0.9909 - val_dice_coef: 0.6597
+Epoch 16/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2956 - accuracy: 0.9904 - dice_coef: 0.7558 - val_loss: 0.5432 - val_accuracy: 0.9909 - val_dice_coef: 0.6035
+Epoch 17/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2907 - accuracy: 0.9906 - dice_coef: 0.7473 - val_loss: 0.5514 - val_accuracy: 0.9909 - val_dice_coef: 0.6596
+Epoch 18/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2775 - accuracy: 0.9906 - dice_coef: 0.7659 - val_loss: 0.5485 - val_accuracy: 0.9909 - val_dice_coef: 0.6462
+Epoch 19/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2843 - accuracy: 0.9907 - dice_coef: 0.7516 - val_loss: 0.5455 - val_accuracy: 0.9909 - val_dice_coef: 0.6429
+Epoch 20/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2790 - accuracy: 0.9906 - dice_coef: 0.7570 - val_loss: 0.5539 - val_accuracy: 0.9909 - val_dice_coef: 0.6480
+Epoch 21/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2776 - accuracy: 0.9908 - dice_coef: 0.7647 - val_loss: 0.5546 - val_accuracy: 0.9909 - val_dice_coef: 0.6231
+Epoch 22/40
+423/423 [==============================] - 55s 130ms/step - loss: 0.2878 - accuracy: 0.9906 - dice_coef: 0.7542 - val_loss: 0.5553 - val_accuracy: 0.9910 - val_dice_coef: 0.6586
+Epoch 23/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2693 - accuracy: 0.9909 - dice_coef: 0.7648 - val_loss: 0.5491 - val_accuracy: 0.9910 - val_dice_coef: 0.6182
+Epoch 24/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2617 - accuracy: 0.9909 - dice_coef: 0.7779 - val_loss: 0.5720 - val_accuracy: 0.9910 - val_dice_coef: 0.7231
+Epoch 25/40
+423/423 [==============================] - 55s 130ms/step - loss: 0.2612 - accuracy: 0.9909 - dice_coef: 0.7721 - val_loss: 0.5349 - val_accuracy: 0.9911 - val_dice_coef: 0.6381
+Epoch 26/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2662 - accuracy: 0.9909 - dice_coef: 0.7678 - val_loss: 0.5418 - val_accuracy: 0.9912 - val_dice_coef: 0.6806
+Epoch 27/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2604 - accuracy: 0.9910 - dice_coef: 0.7869 - val_loss: 0.5545 - val_accuracy: 0.9911 - val_dice_coef: 0.7019
+Epoch 28/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2557 - accuracy: 0.9910 - dice_coef: 0.7981 - val_loss: 0.5385 - val_accuracy: 0.9911 - val_dice_coef: 0.6944
+Epoch 29/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2471 - accuracy: 0.9909 - dice_coef: 0.7851 - val_loss: 0.5441 - val_accuracy: 0.9910 - val_dice_coef: 0.6736
+Epoch 30/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2655 - accuracy: 0.9909 - dice_coef: 0.7756 - val_loss: 0.5566 - val_accuracy: 0.9911 - val_dice_coef: 0.7001
+Epoch 31/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2526 - accuracy: 0.9910 - dice_coef: 0.7861 - val_loss: 0.5486 - val_accuracy: 0.9911 - val_dice_coef: 0.7275
+Epoch 32/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2501 - accuracy: 0.9912 - dice_coef: 0.7862 - val_loss: 0.5449 - val_accuracy: 0.9912 - val_dice_coef: 0.7268
+Epoch 33/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2590 - accuracy: 0.9910 - dice_coef: 0.7824 - val_loss: 0.5481 - val_accuracy: 0.9911 - val_dice_coef: 0.7137
+Epoch 34/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2449 - accuracy: 0.9911 - dice_coef: 0.7883 - val_loss: 0.5345 - val_accuracy: 0.9912 - val_dice_coef: 0.6671
+Epoch 35/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2427 - accuracy: 0.9911 - dice_coef: 0.7935 - val_loss: 0.5472 - val_accuracy: 0.9912 - val_dice_coef: 0.7423
+Epoch 36/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2493 - accuracy: 0.9911 - dice_coef: 0.7884 - val_loss: 0.5452 - val_accuracy: 0.9912 - val_dice_coef: 0.7460
+Epoch 37/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2365 - accuracy: 0.9911 - dice_coef: 0.8027 - val_loss: 0.5370 - val_accuracy: 0.9912 - val_dice_coef: 0.7295
+Epoch 38/40
+423/423 [==============================] - 55s 130ms/step - loss: 0.2426 - accuracy: 0.9911 - dice_coef: 0.7968 - val_loss: 0.5397 - val_accuracy: 0.9912 - val_dice_coef: 0.7127
+Epoch 39/40
+423/423 [==============================] - 55s 131ms/step - loss: 0.2383 - accuracy: 0.9911 - dice_coef: 0.7938 - val_loss: 0.5309 - val_accuracy: 0.9912 - val_dice_coef: 0.7285
+Epoch 40/40
+423/423 [==============================] - 55s 130ms/step - loss: 0.2327 - accuracy: 0.9912 - dice_coef: 0.8066 - val_loss: 0.5281 - val_accuracy: 0.9914 - val_dice_coef: 0.7291
+Images shape: (8, 224, 224, 3), Masks shape: (8, 224, 224, 1)
+1/1 [==============================] - 1s 1s/step
+Preds shape: (8, 224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 0: 0.3051053285598755
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 1: 0.6907415986061096
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 2: 0.6267458200454712
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 3: 0.48714181780815125
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 4: 0.3953319191932678
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 5: 0.4684048593044281
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 6: 0.680444061756134
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 7: 0.6217671632766724
+(224, 224, 1)
+(224, 224, 1)
+Images shape: (8, 224, 224, 3), Masks shape: (8, 224, 224, 1)
+1/1 [==============================] - 0s 28ms/step
+Preds shape: (8, 224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 0: 0.0
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 1: 0.1612623929977417
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 2: 0.0036158671136945486
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 3: 0.17130064964294434
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 4: 0.0
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 5: 0.0
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 6: 0.0
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 7: 0.7186912894248962
+(224, 224, 1)
+(224, 224, 1)
+Images shape: (8, 224, 224, 3), Masks shape: (8, 224, 224, 1)
+1/1 [==============================] - 0s 25ms/step
+Preds shape: (8, 224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 0: 0.6447418928146362
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 1: 0.11858602613210678
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 2: 0.6174124479293823
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 3: 0.4687429368495941
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 4: 0.7410885095596313
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 5: 0.5943273901939392
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 6: 0.03313135355710983
+(224, 224, 1)
+(224, 224, 1)
+Predictions shape: (224, 224, 1)
+Mask shape before IOU: (224, 224, 1)
+IoU for image 7: 0.02185015007853508
+(224, 224, 1)
+(224, 224, 1)
+
+Process finished with exit code 0
